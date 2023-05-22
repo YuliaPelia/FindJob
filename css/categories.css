@@ -1,0 +1,54 @@
+.categories {
+    padding: 70px 0 80px 0;
+}
+
+.categories_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #111238;
+}
+
+.categories_list {
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.categories_list button {
+    box-sizing: border-box;
+    width: 166px;
+    height: 128px;
+    border: none;
+    background: #F2F3F6;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #111238;
+
+    transition: background 0.5s linear;
+}
+
+
+
+.categories_list button:hover {
+    background: #1A75E8;
+    color: #ffff;
+
+}
+
+.categories_list button:hover path {
+    fill: #ffff;
+}
+
+.categories_list svg {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
