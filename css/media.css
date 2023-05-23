@@ -1,3 +1,8 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 @media (max-width: 1140px) {
     .container {
         max-width: 960px;
@@ -32,7 +37,7 @@
     }
 
     .promo_descr {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .promo_form span {
@@ -61,7 +66,7 @@
 
     .vacancies_item {
         flex-direction: column;
-        width: 290px;
+        max-width: 290px;
         padding: 30px;
     }
 
@@ -81,5 +86,101 @@
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 720px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .promo_header_menu {
+        display: none;
+    }
+
+    .promo_header_box {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 24px;
+        margin-bottom: 5px;
+        border: 2px solid #111238;
+        border-radius: 10px;
+        transition: 0.5s linear;
+
+    }
+
+    .hamburger:hover span:nth-child(1) {
+        transform: translateY(5px) rotate(-45deg);
+    }
+
+    .hamburger:hover span:nth-child(2) {
+        display: none;
+    }
+
+    .hamburger:hover span:nth-child(3) {
+        transform: translateY(-3px) rotate(45deg);
+    }
+
+    .promo_wrapper {
+        margin-top: 45px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+
+
+    h1 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .promo_form {
+        margin-top: 45px;
+    }
+
+    .promo_example {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .promo_img {
+        width: 450px;
+    }
+}
+
+@media (max-width:576px) {
+    .container {
+        max-width: none;
+    }
+
+    .promo_header {
+        justify-content: space-around;
+        gap: 120px;
+    }
+
+    .promo_descr {
+        text-align: center;
+    }
+
+    .promo_form {
+        width: 290px;
+        height: 70px;
+        margin: 45px auto 0;
+    }
+
+    .promo_img {
+        width: 290px;
+    }
+
+    h2 {
+        text-align: center;
     }
 }
