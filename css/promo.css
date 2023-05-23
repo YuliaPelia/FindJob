@@ -13,6 +13,7 @@
     display: flex;
     gap: 20px;
     list-style: none;
+    padding: 0;
 }
 
 .menu_items a {
@@ -108,6 +109,7 @@ h1 {
 }
 
 .promo_form>input {
+    padding: 0;
     border: none;
     outline: none;
     font-weight: 400;
@@ -129,11 +131,20 @@ h1 {
 
     color: #FFFFFF;
     border: none;
-    cursor: pointer
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+.promo_form>button:hover {
+    background-color: #111238;
+}
+
+.promo_form>button img {
+    margin-right: 10px;
 }
 
 .promo_content {
-    width: 460px;
+    max-width: 460px;
 }
 
 .promo_example {

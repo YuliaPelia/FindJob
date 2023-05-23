@@ -1,0 +1,85 @@
+@media (max-width: 1140px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .promo_img {
+        width: 475px;
+    }
+
+    .categories_list {
+        gap: 45px 80px;
+    }
+
+    .vacancies_item_wrapper-category {
+        gap: 70px;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .promo_content {
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .promo_descr {
+        font-size: 14px;
+    }
+
+    .promo_form span {
+        display: none;
+    }
+
+    .promo_form>button {
+        position: relative;
+    }
+
+    .promo_form>button img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-right: 0;
+    }
+
+    .promo_img {
+        width: 350px;
+    }
+
+    .promo_example h3 {
+        font-size: 12px;
+    }
+
+    .vacancies_item {
+        flex-direction: column;
+        width: 290px;
+        padding: 30px;
+    }
+
+    .vacation_item_wrapper-logo {
+        flex-direction: column;
+    }
+
+    .vacancies_item_wrapper-category {
+        flex-direction: column;
+    }
+
+    .vacancies_item_requirements {
+        flex-direction: column;
+    }
+
+    .vacancies_list {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

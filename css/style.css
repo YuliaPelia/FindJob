@@ -1,5 +1,7 @@
 @import './promo.css';
 @import './categories.css';
+@import './vacancies.css';
+@import './media.css';
 
 * {
     font-family: 'Fira Sans',
